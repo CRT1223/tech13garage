@@ -1,0 +1,340 @@
+/* Dashboard Styles for TECH13 */
+
+/* Dashboard Header */
+#dashboard-header {
+    background-color: #2c3e50;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#dashboard-header #logo h1 {
+    color: #fff;
+}
+
+#dashboard-header #nav-main ul li a {
+    color: #fff;
+}
+
+#dashboard-header #nav-main ul li a.active,
+#dashboard-header #nav-main ul li a:hover {
+    color: #e67e22;
+}
+
+.logout-btn {
+    background-color: #e74c3c;
+    color: #fff !important;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.logout-btn:hover {
+    background-color: #c0392b;
+}
+
+/* Main Dashboard Content */
+.dashboard-content {
+    padding: 40px 0;
+    background-color: #f5f7fa;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-heading {
+    margin-bottom: 20px;
+}
+
+.section-heading h2 {
+    font-size: 24px;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+/* User Profile Section */
+.profile-section {
+    margin-bottom: 30px;
+}
+
+.user-profile {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-info h2 {
+    margin: 0 0 10px;
+    font-size: 22px;
+    color: #2c3e50;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    color: #7f8c8d;
+}
+
+.profile-info p i {
+    margin-right: 10px;
+    color: #3498db;
+}
+
+/* Statistics Section */
+.stats-section {
+    margin-bottom: 30px;
+}
+
+.stat-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.stat-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.stat-icon i {
+    font-size: 24px;
+    color: #fff;
+}
+
+.stat-info h3 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+.stat-info p {
+    margin: 5px 0 0;
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+/* Table Styles */
+.appointments-section,
+.service-history-section {
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.responsive-table {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    color: #2c3e50;
+    font-weight: 600;
+    text-align: left;
+    padding: 12px 15px;
+    border-bottom: 2px solid #e9ecef;
+}
+
+.table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.status-pending {
+    background-color: #fef5e7;
+    color: #e67e22;
+}
+
+.status-confirmed {
+    background-color: #e8f8f5;
+    color: #1abc9c;
+}
+
+.status-in_progress {
+    background-color: #eaf2f8;
+    color: #3498db;
+}
+
+.status-completed {
+    background-color: #eafaf1;
+    color: #2ecc71;
+}
+
+.status-canceled {
+    background-color: #f8f9fa;
+    color: #7f8c8d;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.btn-view,
+.btn-edit,
+.btn-delete {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-view {
+    background-color: #3498db;
+}
+
+.btn-edit {
+    background-color: #f39c12;
+}
+
+.btn-delete {
+    background-color: #e74c3c;
+}
+
+.btn-view:hover,
+.btn-edit:hover,
+.btn-delete:hover {
+    opacity: 0.8;
+}
+
+.view-all-link {
+    margin-top: 15px;
+    text-align: right;
+}
+
+/* Quick Actions */
+.quick-actions-section {
+    margin-bottom: 30px;
+}
+
+.action-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #3498db;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.action-icon i {
+    font-size: 28px;
+    color: #fff;
+}
+
+.action-card h3 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #2c3e50;
+}
+
+.action-card p {
+    margin: 0 0 20px;
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+.action-card .button {
+    margin-top: auto;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .dashboard-content {
+        padding: 20px 0;
+    }
+    
+    .user-profile {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .profile-image {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    
+    .col-3, 
+    .col-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .table th, 
+    .table td {
+        padding: 8px 10px;
+    }
+    
+    .action-card {
+        margin-bottom: 20px;
+    }
+}
+
+/* Text center utility */
+.text-center {
+    text-align: center;
+} 
